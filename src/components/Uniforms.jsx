@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { uniforms } from '../data.js'
-import screamImg from '../assets/sophie-scream.jpg'
+import actionImg from '../assets/sophie-action.avif'
 import carpetImg from '../assets/sophie-carpet.webp'
 
 /**
@@ -13,7 +13,7 @@ import carpetImg from '../assets/sophie-carpet.webp'
  * point. Built on native pointer events (no physics lib) for the same reason the
  * Shrine drag is.
  */
-const IMAGES = { scream: screamImg, carpet: carpetImg }
+const IMAGES = { action: actionImg, carpet: carpetImg }
 
 export default function Uniforms() {
   const [pos, setPos] = useState(52) // % from left where the wipe sits

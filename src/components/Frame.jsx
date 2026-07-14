@@ -24,7 +24,7 @@ export default function Frame() {
       <nav className="frame__nav" aria-label="Sections">
         <a href="#manifesto">CREED</a>
         <a href="#ledger">LEDGER</a>
-        <a href="#shrine">SHRINE</a>
+        <a href="#fits">FITS</a>
         <a href="#reach">REACH</a>
       </nav>
 

@@ -160,7 +160,7 @@ export const uniforms = {
   hint: '◀ DRAG ▶',
   // `focus` = object-position; biased toward the top so faces (and a bit of the
   // fit) stay in frame when the wide stage crops a tall portrait.
-  onClock: { img: 'scream', label: 'ON THE CLOCK', tag: 'game face', focus: '50% 30%' },
+  onClock: { img: 'action', label: 'ON THE CLOCK', tag: 'game face', focus: '50% 28%' },
   offClock: { img: 'carpet', label: 'OFF THE CLOCK', tag: 'off-duty enforcer', focus: '50% 12%' },
 }
 

@@ -859,7 +859,7 @@ a {
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(70px, 18vw, 260px);
-  line-height: 0.82;
+  line-height: 0.92;
   text-transform: uppercase;
 }
 .reach__headline em {
@@ -908,13 +908,16 @@ a {
 .reach__pill {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  padding: 14px 20px;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 30px;
+  min-width: 190px;
   background: var(--gold);
   color: var(--ink);
   border: 3px solid var(--gold-deep);
-  border-radius: 999px;
+  border-radius: 14px;
   text-align: center;
+  white-space: nowrap;
   transition: transform 0.2s ease;
 }
 .reach__string:hover .reach__pill {
@@ -927,7 +930,8 @@ a {
 }
 .reach__handle {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: clamp(20px, 2.2vw, 26px);
+  line-height: 1;
 }
 .reach__fine {
   font-family: var(--font-mono);
@@ -1374,7 +1378,7 @@ a {
   margin-top: 0.4em;
 }
 .loader__bar {
-  width: min(70vw, 440px);
+  width: 100%; /* inner shrinks to the wordmark, so the bar spans the whole name */
   height: 8px;
   margin-top: 2.4vh;
   background: rgba(11, 11, 12, 0.16);
