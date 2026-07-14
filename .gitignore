@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# agent tooling (ruflo/RuVector) — local state, not project source
+agentdb.rvf
+agentdb.rvf.lock

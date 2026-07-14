@@ -1,0 +1,23 @@
+{
+  "name": "the-bodyguard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "THE BODYGUARD — an interactive single-player showcase for Sophie Cunningham (№8, Indiana Fever). Buttermax-school flat-gold, kinetic-type, physics-object web experience.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^12.42.2",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.25",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
+}
