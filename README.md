@@ -1,5 +1,7 @@
 # THE BODYGUARD — Sophie Cunningham
 
+**🔗 Live site:** [08-sophie-cunningham.vercel.app](https://08-sophie-cunningham.vercel.app)
+
 An interactive, single-player web experience for **Sophie Cunningham** (№8, Indiana Fever) — built in the "award-site" style of studio pieces like [buttermax.net](https://buttermax.net): one loud flat color, giant kinetic typography, an ink-smear hero, draggable physics objects, and a big red button you should absolutely press.
 
 This is **Concept 1 of a three-concept plan** (see [The bigger plan](#the-bigger-plan)). It is a standalone Vite + React project, deliberately separated from the league-wide "THE W" showcase so it can have its own loud identity and ship on its own URL.
