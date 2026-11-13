@@ -3,8 +3,8 @@ import { socials } from '../data.js'
 /**
  * Footer — dark "GET BEHIND HER." closer with socials hanging on strings.
  *
- * NEXT (README → Roadmap, phase "Footer + polish"): swing each hanging social
- * on a pendulum (framer-motion) and nudge on hover. Static version sets the
+ * Possible enhancement: swing each hanging social
+ * on a pendulum (framer-motion) and nudge on hover. This version sets the
  * layout, drop lengths, and copy.
  */
 export default function Footer() {

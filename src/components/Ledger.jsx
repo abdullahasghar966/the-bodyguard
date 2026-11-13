@@ -3,9 +3,9 @@ import { ledger, timeline } from '../data.js'
 /**
  * Ledger — gold stat blocks + a stamped career timeline.
  *
- * NEXT (README → Roadmap, phase "Ledger"): count the numbers up on scroll-in
- * and slam each timeline stamp down with a slight rotation + audio tick. This
- * static version renders the final numbers, notes, and timeline copy.
+ * Possible enhancement: count the numbers up on scroll-in
+ * and slam each timeline stamp down with a slight rotation + audio tick.
+ * This version renders the final numbers, notes, and timeline copy.
  */
 export default function Ledger() {
   return (

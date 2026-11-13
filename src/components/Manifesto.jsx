@@ -4,9 +4,9 @@ import chipPhoto from '../assets/sophie-action.avif'
 /**
  * Manifesto — ink-dark section, viewport-filling kinetic lines.
  *
- * NEXT (README → Roadmap, phase "Manifesto"): drive each line with GSAP
+ * Possible enhancement: drive each line with GSAP
  * ScrollTrigger so words wipe/slide in as you scroll, and let the PHOTO chip
- * punch a masked image through the word. This static version renders the final
+ * punch a masked image through the word. This version renders the final
  * copy and layout so the type + rhythm are already locked.
  */
 export default function Manifesto() {
